@@ -36,7 +36,7 @@ For the endpoints, I only created 2.
 ## Login Endpoint (<base_url>/kitra/v1/auth/login)
 - Sample URL: `localhost:3005/kitra/v1/auth/login`
 - HTTP Method: `POST`
-- Body Params:
+- Body Params (JSON):
     - `email`: required
     - `password`: required
 
