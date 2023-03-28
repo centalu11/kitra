@@ -1,10 +1,10 @@
 # Installation
 
 - First, clone this repo
-- Then, create a new file `.env` in the root folder and copy the contents from .env.example.
-  Just change some configurations based on your local like the database name, etc.
-- Then create a mysql database with the same name as the one defined in `.env` via `TYPEORM_DATABASE`.
-  Empty database for now, this will get populated later.
+- Then, create a new file `.env` in the root folder and copy the contents from `.env.example.`
+  Change some configurations based on your local like the database name if you want or just leave the same values.
+- Then create a mysql database with the same name as the one defined as `TYPEORM_DATABASE` from `.env`.
+  This is an empty database for now and will get populated later.
 - If nodejs is currently not installed, install it from https://nodejs.org/en.
   The current version I was using is v16.11.1
 - Run `npm install`
